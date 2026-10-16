@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "description": "Detect real file types from magic bytes and flag extension/MIME mismatches, macros and polyglot files across folders.",
+    "homepage": "https://tools.chaitanyaprabuddha.com/file-type-detector",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.0/file-type-detector-1.0.0-windows-x64.zip",
+            "hash": "b63c593e59ec00f3ed4e296ed49d64dc2bf1dda45dc9424a12793bba4d25299f"
+        }
+    },
+    "bin": "localtools-file-type-detector.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/chayprabs/localtools/releases?per_page=100",
+        "regex": "\"tag_name\":\\s*\"file-type-detector-v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v$version/file-type-detector-$version-windows-x64.zip"
+            }
+        }
+    }
+}
