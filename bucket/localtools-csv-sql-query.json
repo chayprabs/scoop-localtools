@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Run SQL on CSV, TSV, JSON, Parquet and log files (nginx, Apache, syslog) with DuckDB.",
     "homepage": "https://tools.chaitanyaprabuddha.com/csv-sql-query",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.0/csv-sql-query-1.0.0-windows-x64.zip",
-            "hash": "6339441a048372458201c42903179c715cdbd67f3151b3677a2fb980e31b00c8"
+            "url": "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.1/csv-sql-query-1.0.1-windows-x64.zip",
+            "hash": "6309f55a7163158c1c633cb37717122d05058dec80bf3e0a4157a9d85f0d5ffe"
         }
     },
     "bin": "localtools-csv-sql-query.exe",
