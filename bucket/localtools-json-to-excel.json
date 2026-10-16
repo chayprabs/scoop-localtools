@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert JSON or JSONL into formatted .xlsx workbooks with typed columns and multiple sheets.",
     "homepage": "https://tools.chaitanyaprabuddha.com/json-to-excel",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.0/json-to-excel-1.0.0-windows-x64.zip",
-            "hash": "9e4d791dd2d3cd7e973b8ed5548b388c53f90148e9e4fbb0b0eb8f5cdf7aa3b4"
+            "url": "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.1/json-to-excel-1.0.1-windows-x64.zip",
+            "hash": "325883b421e8d5f9dce132fa359f33b36f1820abb3969d9c0ef2243c6791a51b"
         }
     },
     "bin": "localtools-json-to-excel.exe",
