@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Diff two OpenAPI 3 or Swagger specs and list breaking changes with severity.",
     "homepage": "https://tools.chaitanyaprabuddha.com/openapi-diff",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.1/openapi-diff-1.0.1-windows-x64.zip",
-            "hash": "24f1e6987f2fd220be8db20e7c43f4b43b9621190c8dc0d7c4866e08291452c7"
+            "url": "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.2/openapi-diff-1.0.2-windows-x64.zip",
+            "hash": "ce2f9bc17a58cfa1b038f31a2cf36137a97e9dc9a568da5b7084309820261c6d"
         }
     },
     "bin": "localtools-openapi-diff.exe",
