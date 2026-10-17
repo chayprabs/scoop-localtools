@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Convert and transform CSV, TSV, JSON and JSONL with Miller verbs: filter, sort, join, reshape.",
     "homepage": "https://tools.chaitanyaprabuddha.com/csv-json-transform",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.1/csv-json-transform-1.0.1-windows-x64.zip",
-            "hash": "35d03b7f70a24b4d475479565f1ee15f358ca195b0e6c25f5998b1f81d444006"
+            "url": "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.2/csv-json-transform-1.0.2-windows-x64.zip",
+            "hash": "888b8747043991cd56ea704a8c25f548be64a811de95d443f7c408cb49bed47e"
         }
     },
     "bin": "localtools-csv-json-transform.exe",
