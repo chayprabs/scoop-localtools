@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Extract data from HTML pages with CSS selectors into JSON or CSV.",
     "homepage": "https://tools.chaitanyaprabuddha.com/html-extractor",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.0/html-extractor-1.0.0-windows-x64.zip",
-            "hash": "de7c2c6400d2a9d01a0e98915275e3db2c4961917210ecb418df01620a8534d1"
+            "url": "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-windows-x64.zip",
+            "hash": "575777e9aaa1490078df4f01fb6cb140a46349b5cb78926657bef2880ba5d578"
         }
     },
     "bin": "localtools-html-extractor.exe",
