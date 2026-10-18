@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "description": "Score Kubernetes YAML and Helm-rendered manifests for production readiness and security, with a fix snippet per finding.",
+    "homepage": "https://tools.chaitanyaprabuddha.com/k8s-manifest-checker",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chayprabs/localtools/releases/download/k8s-manifest-checker-v1.0.0/k8s-manifest-checker-1.0.0-windows-x64.zip",
+            "hash": "16742a485f8a8bffadce20cfeac84e5c9ab2d5921f6bdca67c10b0f745225b3c"
+        }
+    },
+    "bin": "localtools-k8s-manifest-checker.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/chayprabs/localtools/releases?per_page=100",
+        "regex": "\"tag_name\":\\s*\"k8s-manifest-checker-v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chayprabs/localtools/releases/download/k8s-manifest-checker-v$version/k8s-manifest-checker-$version-windows-x64.zip"
+            }
+        }
+    }
+}
