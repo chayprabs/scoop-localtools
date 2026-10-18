@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "description": "Inspect and remove metadata from JPEG, PNG, TIFF and WebP images; download clean copies and a remaining-tags report.",
+    "homepage": "https://tools.chaitanyaprabuddha.com/exif-remover",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.0/exif-remover-1.0.0-windows-x64.zip",
+            "hash": "dad0aca1b089e5e0044de42b103c12589980f71332945b92914a2d44ab7aedc2"
+        }
+    },
+    "bin": "localtools-exif-remover.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/chayprabs/localtools/releases?per_page=100",
+        "regex": "\"tag_name\":\\s*\"exif-remover-v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chayprabs/localtools/releases/download/exif-remover-v$version/exif-remover-$version-windows-x64.zip"
+            }
+        }
+    }
+}
