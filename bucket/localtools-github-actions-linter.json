@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Lint GitHub Actions workflows for correctness and security issues, with line-level findings and suggested fixes.",
     "homepage": "https://tools.chaitanyaprabuddha.com/github-actions-linter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.0/github-actions-linter-1.0.0-windows-x64.zip",
-            "hash": "835586a54fe45e99eede6d8c2187fb189452f67240d5b59af90e9fff0619cacc"
+            "url": "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.1/github-actions-linter-1.0.1-windows-x64.zip",
+            "hash": "f843552ed9728be737a50ea2136bb40a732e475d740421f9643ee87d51a12d63"
         }
     },
     "bin": "localtools-github-actions-linter.exe",
