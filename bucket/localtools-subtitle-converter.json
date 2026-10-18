@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert, inspect and re-time subtitles; extract, add or burn captions into video.",
     "homepage": "https://tools.chaitanyaprabuddha.com/subtitle-converter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.0/subtitle-converter-1.0.0-windows-x64.zip",
-            "hash": "3b4421980af64ff563d992d9371aecc31bb9888da8479a5d2ab2dae0893e8fa1"
+            "url": "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.1/subtitle-converter-1.0.1-windows-x64.zip",
+            "hash": "df253982ea983ad1ec7a6ad19bfbb476e45ba205d5d235f0c3a9230d3d3313b4"
         }
     },
     "bin": "localtools-subtitle-converter.exe",
