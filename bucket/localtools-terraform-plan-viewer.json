@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Review terraform or OpenTofu plan JSON offline: destructive changes first, attribute diffs, blast radius, drift and risk flags.",
     "homepage": "https://tools.chaitanyaprabuddha.com/terraform-plan-viewer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.0/terraform-plan-viewer-1.0.0-windows-x64.zip",
-            "hash": "358329a8a3dd77fe5cdaad0778e881228fdac874dc7c9dccc26a1ab77781291c"
+            "url": "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.1/terraform-plan-viewer-1.0.1-windows-x64.zip",
+            "hash": "922ae67b70632a734cce6850d2f8d0d489b4ae2ef810291e2342e8dbe78e9204"
         }
     },
     "bin": "localtools-terraform-plan-viewer.exe",
