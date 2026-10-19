@@ -1,12 +1,12 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert documents between Markdown, DOCX, HTML, EPUB, LaTeX and PDF with pandoc.",
     "homepage": "https://tools.chaitanyaprabuddha.com/pandoc-gui",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.0/pandoc-gui-1.0.0-windows-x64.zip",
-            "hash": "c7ec982a639f16054404b74d55e527f6d1112af95d08894d3b4771c253d7d567"
+            "url": "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.1/pandoc-gui-1.0.1-windows-x64.zip",
+            "hash": "7e59baed698a931b5ed373b8e083fd7e7e309e53cc0cc5d7d4c5d57fcc8e438b"
         }
     },
     "bin": "localtools-pandoc-gui.exe",
