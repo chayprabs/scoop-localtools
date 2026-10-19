@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0",
+    "description": "Write Typst documents with live preview and export them to PDF, PNG or SVG.",
+    "homepage": "https://tools.chaitanyaprabuddha.com/typst-editor",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.0/typst-editor-1.0.0-windows-x64.zip",
+            "hash": "040665e224e8f1991e5d1fe1620778abe7b122500a1d0d4994860d529512b323"
+        }
+    },
+    "bin": "localtools-typst-editor.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/chayprabs/localtools/releases?per_page=100",
+        "regex": "\"tag_name\":\\s*\"typst-editor-v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chayprabs/localtools/releases/download/typst-editor-v$version/typst-editor-$version-windows-x64.zip"
+            }
+        }
+    }
+}
