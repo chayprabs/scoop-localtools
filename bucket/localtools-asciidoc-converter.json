@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Convert AsciiDoc documents and projects to self-contained HTML5, DocBook 5 or Markdown with Asciidoctor, offline.",
     "homepage": "https://tools.chaitanyaprabuddha.com/asciidoc-converter",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.1/asciidoc-converter-1.0.1-windows-x64.zip",
-            "hash": "9162dc2cb59104f15bb9b3e54acffb9b0615de62807688675b8a87aa097b4e1f"
+            "url": "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.2/asciidoc-converter-1.0.2-windows-x64.zip",
+            "hash": "7afeac203900604449c0d085ef1b027f54ad844eb28b06276ba97611326ae742"
         }
     },
     "bin": "localtools-asciidoc-converter.exe",
