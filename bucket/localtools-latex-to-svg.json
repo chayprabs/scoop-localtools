@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Render LaTeX, MathML or AsciiMath to SVG, PNG and MathML with speech alt text, offline with MathJax.",
     "homepage": "https://tools.chaitanyaprabuddha.com/latex-to-svg",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.1/latex-to-svg-1.0.1-windows-x64.zip",
-            "hash": "09ab2aea8c7d8204fdc23971d1938dd7db997273f52d4f14519e00f12c63bbf4"
+            "url": "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-windows-x64.zip",
+            "hash": "6e10a3d6ae02dde59146ccbe9a067e2481504138aa59aec950a8fa7c92962b21"
         }
     },
     "bin": "localtools-latex-to-svg.exe",
